@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5F1F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #F5F7FA;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    color: #1A447A;
+    margin-bottom: 20px;
+}
+
+/* Back button */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #1A447A;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.back-button:hover {
+    background-color: #143a66;
+}
+
+/* Appointment card */
+.appointment-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.appointment-info h3 {
+    color: #1A447A;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.appointment-info p {
+    color: #555;
+    font-size: 0.95em;
+    margin: 4px 0;
+}
+
+/* Action buttons */
+.appointment-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modify-button, .delete-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+}
+
+.modify-button {
+    background-color: #1A447A;
+}
+
+.modify-button:hover {
+    background-color: #143a66;
+}
+
+.delete-button {
+    background-color: #d9534f;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+}

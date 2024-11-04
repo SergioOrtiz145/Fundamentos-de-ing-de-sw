@@ -1,0 +1,131 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D0E6F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header styling */
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #1A447A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header .logo h1 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.header .logo span {
+    color: #38A169; /* Color para "Connect" */
+}
+
+/* Logout button styling */
+.logout-button {
+    background-color: #FF5A5F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.logout-button:hover {
+    background-color: #ff3b3e;
+}
+
+/* Main content styling */
+.main-content {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: #A9CCE3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; /* Separa el formulario de la barra fija */
+}
+
+/* Form styling */
+.main-content h2 {
+    background-color: #1A447A;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.consulta-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consulta-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1em;
+    align-self: flex-start;
+}
+
+.consulta-form label span {
+    color: red;
+}
+
+.consulta-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Search button styling */
+.search-button {
+    padding: 10px 20px;
+    background-color: #1A447A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #143a66;
+}
